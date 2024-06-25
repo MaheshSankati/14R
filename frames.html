@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <h1 align="center">Registration Form</h1>
+  </head>
+  <body>
+    <form align="center">
+      <label for="fname"><b>First Name</b></label
+      ><br />
+      <input placeholder="name" name="fname" id="fname" type="text" /><br />
+      <label for="sname"><b>Second Name</b></label
+      ><br />
+      <input placeholder="name" name="sname" id="sname" type="text" /><br />
+      <label for="email"><b>email</b></label
+      ><br />
+      <input
+        placeholder="example@gmail.com"
+        name="mail"
+        id="mail"
+        type="text"
+      /><br />
+      <label><b>Password</b></label
+      ><br />
+      <input placeholder="******" type="password" /><br />
+      <label for="mble"><b>Phone no.</b></label
+      ><br />
+      <input
+        placeholder="0123456789"
+        id="mble"
+        type="tel"
+        pattern="[0-9]{4,10}"
+      /><br />
+      <label for="date"><b>Date of Birth</b></label
+      ><br />
+      <input type="date" id="date" name="date" /><br />
+      <label for="time"><b>Time</b></label
+      ><br />
+      <input type="time" id="time" name="time" /><br />
+      <label for="range"><b>Range</b></label
+      ><br />
+      <input type="range" id="range" /><br />
+      <label for="clr"
+        ><i><b>Colour</b></i></label
+      ><br />
+      <input type="color" id="clr" type="colour" /><br />
+      <label for="myfile"><b>Choose file</b></label
+      ><br />
+      <input type="file" id="myfile" /><br />
+      <label for="veg or non-veg menu"
+        ><b>Choose fav Veg or Non-Veg menu:</b></label
+      ><br />
+      <select name="veg" id="veg">
+        <optgroup label="veg menu">
+          <option value="paneer">paneer</option>
+          <option value="veg biryani">veg biryani</option>
+          <option value="veg fried rice">veg fried rice</option>
+        </optgroup>
+        <optgroup label="non-veg menu">
+          <option valu="chicken biryani">chicken biryani</option>
+          <option value="mutton biryani">mutton biryani</option>
+          <option value="beef briyani">beef biryani</option>
+        </optgroup></select
+      ><br />
+      <input type="Submit" /><br />
+    </form>
+  </body>
+</html>
